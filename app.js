@@ -24,7 +24,31 @@ App({
       })
     }
   },
+  getGameConfig() {
+    return this.globalData.gameConfig
+  },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    gameConfig: {
+      // name -> live or not
+      villages: [
+        {'village': 1},
+        {'village': 1},
+        {'village': 1},
+        {'village': 1},
+      ],
+      gods: [
+        {'farseer': 1},
+        {'witch': 1},
+        {'guard': 1},
+        {'hunter': 1},
+      ],
+      wolves: [
+        {'wolf': 1},
+        {'wolf': 1},
+        {'wolf': 1},
+        {'wolf': 1},
+      ]
+    }
   }
 })

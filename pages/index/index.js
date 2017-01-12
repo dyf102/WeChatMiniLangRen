@@ -22,5 +22,11 @@ Page({
         userInfo:userInfo
       })
     })
+    console.log('hello')
+    console.log(app.getGameConfig());
+
+    wx.navigateTo({
+      url: '../game-setup/game-setup'
+    })    
   }
 })

@@ -1,0 +1,9 @@
+<!--pages/game-setup/game-setup.wxml-->
+
+<text>狼人杀上帝专用1.0\n</text>
+<text>当前版本只支持13人局</text>
+<text>4 神 - 预言家，女巫，守卫，猎人</text>
+<text>4 狼</text>
+<text>4 村民</text>
+
+<button bindtap="gameStart">开始游戏</button>

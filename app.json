@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/game-setup/game-setup",
+    "pages/night-one/night-one",
+    "pages/night-else/night-else",
     "pages/logs/logs"
   ],
   "window":{
