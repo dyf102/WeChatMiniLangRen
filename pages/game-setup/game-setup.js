@@ -1,9 +1,9 @@
 // pages/game-setup/game-setup.js
 Page({
   gameStart() {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../night-one/night-one'
-    }) 
+    })
   },
   data:{},
   onLoad:function(options){

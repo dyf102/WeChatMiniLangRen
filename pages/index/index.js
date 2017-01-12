@@ -5,8 +5,8 @@ Page({
   data: {
     motto: 'Hello World sadfsfasdfsfasdfa',
     userInfo: {}
-  },
   //事件处理函数
+  },
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
@@ -25,7 +25,7 @@ Page({
     console.log('hello')
     console.log(app.getGameConfig());
 
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../game-setup/game-setup'
     })    
   }
